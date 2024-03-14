@@ -10,6 +10,9 @@
     box-sizing: border-box;
 
 }
+body {
+    overflow-x: hidden;
+}
 .container{
     max-width: 856px;
     width: 100%;

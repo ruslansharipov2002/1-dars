@@ -18,14 +18,19 @@
     display: none;
     margin-top: 20px;
     border: none;
-    margin-left: 300px;
 }
 @media screen and (max-width: 952px) {
     .ul_text {
         display: none;
     }
     .menu_btn {
-        display: block;
+        display: flex;
+        align-items: end;
+    }
+    .btn_wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: end;
     }
 }
 
